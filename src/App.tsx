@@ -6,11 +6,10 @@ import store from './store'
 function App() {
   return (
     <Provider store={store}>
-      <StyleGlobal>
+      <StyleGlobal />
       <Container>
       <ListaDeContatos />
       </Container>
-    </StyleGlobal>
     </Provider>
   )
 }
