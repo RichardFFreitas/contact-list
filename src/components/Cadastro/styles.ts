@@ -50,7 +50,6 @@ export const nameRegister = styled.input`
   border-bottom: 1px solid ${c.black1};
   background-color: transparent;
   line-height: 15px;
-  font-family: 'Roboto Mono', monospace;
   width: 300px;
 
   @media (max-width: 768px) {
