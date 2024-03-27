@@ -43,11 +43,11 @@ const ListaDeCadastro = () => {
     return (
         <main>
           <div>
-            <p>Lista de contatos em react</p>
+            <p>Sua Lista de contatos</p>
             <div>
               <S.InputSearch
                 type="text"
-                placeholder="Localizar contato ...."
+                placeholder="Localizar contato"
                 value={termo}
                 onChange={(evento) => dispatch(alteraTermo(evento.target.value))}
               />
